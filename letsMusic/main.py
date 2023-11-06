@@ -12,7 +12,6 @@ from pyrogram.raw.functions.channels import JoinChannel
 
 LetsMusic_Help_Msg = f'''
 `,{alias_command('letsMusic')} 水星记 郭顶 or 富士山下`  # 通过歌曲名称+歌手（可选）点歌
-note: 需要添加广告频道,这是由bot所决定,https://t.me/huoke
 '''
 
 
