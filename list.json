@@ -19,6 +19,16 @@
 			"supported": true,
 			"des_short": "Sticker Tools",
 			"des": "Sticker Tools\n在原有的基础上增加了短暂添加到指定贴纸包，指令：，s to 贴纸包"
+		},
+		{
+			"name": "q",
+			"version": "1.0",
+			"section": "chat",
+			"maintainer": "wuhuhuuuu",
+			"size": "10.3 kb",
+			"supported": true,
+			"des_short": "@QuotLyBot",
+			"des": "@QuotLyBot\n指令：，q 3"
 		}
 	]
 }
