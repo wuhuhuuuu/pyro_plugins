@@ -35,7 +35,6 @@ async def music_search(keyword: str, message: Message):
         await conv.mark_as_read()
         if not answer.reply_markup:
             return await message.edit(answer.text.html)
-        await message.edit(answer.reply_markup.inline_keyboard[0][0].callback_data)
         await bot.request_callback_answer(
             answer.chat.id,
             answer.id,
