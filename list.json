@@ -1,14 +1,24 @@
 {
-    "list": 
-        {
-            "name": "nsticker",
-            "version": "1.0",
-            "section": "chat",
-            "maintainer": "wuhuhuuuu",
-            "size": "10.3 kb",
-            "supported": true,
-            "des_short": "Sticker Tools",
-            "des": "Sticker Tools\n在原有的基础上增加了短暂添加到指定贴纸包，指令：，s to 贴纸包"
-        }
-    ]
+	"list": [
+		{
+			"name": "letsMusic",
+			"version": "1.0",
+			"section": "chat",
+			"maintainer": "wuhuhuuuu",
+			"size": "2.1 kb",
+			"supported": true,
+			"des_short": "lets Music",
+			"des": "点歌机器人，需要关注频道，这是由bot作者所决定\n指令：，letsMusic 水星记"
+		},
+		{
+			"name": "nsticker",
+			"version": "1.0",
+			"section": "chat",
+			"maintainer": "wuhuhuuuu",
+			"size": "10.3 kb",
+			"supported": true,
+			"des_short": "Sticker Tools",
+			"des": "Sticker Tools\n在原有的基础上增加了短暂添加到指定贴纸包，指令：，s to 贴纸包"
+		}
+	]
 }
