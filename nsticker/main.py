@@ -61,7 +61,6 @@ class Sticker:
     message: Message
     sticker_set: str
     custom_sticker_set: bool
-    temporary: bool
     emoji: str
     should_forward: Message
     is_animated: bool
