@@ -5,7 +5,7 @@
 			"version": "1.0",
 			"section": "chat",
 			"maintainer": "wuhuhuuuu",
-			"size": "2.1 kb",
+			"size": "2.0 kb",
 			"supported": true,
 			"des_short": "lets Music",
 			"des": "点歌机器人，需要关注频道，这是由bot作者所决定\n指令：，letsMusic 水星记"
@@ -25,7 +25,7 @@
 			"version": "1.0",
 			"section": "chat",
 			"maintainer": "wuhuhuuuu",
-			"size": "10.3 kb",
+			"size": "2.1 kb",
 			"supported": true,
 			"des_short": "@QuotLyBot",
 			"des": "@QuotLyBot\n指令：，q 3"
@@ -37,8 +37,8 @@
 			"maintainer": "wuhuhuuuu",
 			"size": "1.5 kb",
 			"supported": true,
-			"des_short": "vkmusic_bot",
-			"des": "vkmusic_bot\n指令：，vkmusic 水星记"
+			"des_short": "@vkmusic_bot",
+			"des": "@vkmusic_bot\n指令：，vkmusic 水星记"
 		}
 	]
 }
