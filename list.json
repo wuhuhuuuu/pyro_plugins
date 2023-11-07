@@ -29,6 +29,16 @@
 			"supported": true,
 			"des_short": "@QuotLyBot",
 			"des": "@QuotLyBot\n指令：，q 3"
-		}
+		},
+		{
+			"name": "vkmusix",
+			"version": "1.0",
+			"section": "chat",
+			"maintainer": "wuhuhuuuu",
+			"size": "1.5 kb",
+			"supported": true,
+			"des_short": "vkmusic_bot",
+			"des": "vkmusic_bot\n指令：，vkmusic 水星记"
+		},
 	]
 }
