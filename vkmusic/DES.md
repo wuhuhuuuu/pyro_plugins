@@ -1,2 +1,2 @@
-vkmusic_bot
-指令：，vkmusic 水星记
+@vkmusic_bot
+指令：，vk 水星记

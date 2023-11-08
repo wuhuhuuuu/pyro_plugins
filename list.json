@@ -32,13 +32,13 @@
 		},
 		{
 			"name": "vkmusic",
-			"version": "1.0",
+			"version": "1.01",
 			"section": "chat",
 			"maintainer": "wuhuhuuuu",
-			"size": "1.5 kb",
+			"size": "1.6 kb",
 			"supported": true,
 			"des_short": "@vkmusic_bot",
-			"des": "@vkmusic_bot\n指令：，vkmusic 水星记"
+			"des": "@vkmusic_bot\n指令：，vk 水星记"
 		}
 	]
 }

@@ -6,9 +6,11 @@ from pagermaid.listener import listener
 from pagermaid.enums import Message
 from pagermaid.utils import alias_command
 
+from asyncio import sleep
+
 
 LetsMusic_Help_Msg = f'''
-`,{alias_command('vkmusic')} 水星记 郭顶 or 富士山下`  # 通过歌曲名称+歌手（可选）点歌
+`,{alias_command('vk')} 水星记 郭顶 or 富士山下`  # 通过歌曲名称+歌手（可选）点歌
 '''
 
 
@@ -22,12 +24,14 @@ async def music_search(keyword: str, message: Message):
     async with bot.conversation("vkmusic_bot") as conv:
         await conv.send_message(keyword)
         await conv.mark_as_read()
-        answer: Message = await conv.get_response(filters=filters.regex("Result"))
+        answer: Message = await conv.get_response(filters=filters.inline_keyboard)
         await conv.mark_as_read()
         if not answer.reply_markup:
             return await message.edit(answer.text.html)
-        await answer.click('1')
+        await sleep(1)
+        await answer.click(1)
         await conv.mark_as_read()
+        await sleep(1)
         await bot.copy_message(
         	chat_id=message.chat.id,
         	from_chat_id='vkmusic_bot',
@@ -38,11 +42,12 @@ async def music_search(keyword: str, message: Message):
         await message.safe_delete()
 
 @listener(
-    command="vkmusic",
+    command="vk",
     parameters="[query]",
 )
 async def letsmusic(message: Message):
     if not message.arguments:
         return await message.edit(LetsMusic_Help_Msg)
     await bot_start()
+    await sleep(1)
     return await music_search(message.arguments, message)
