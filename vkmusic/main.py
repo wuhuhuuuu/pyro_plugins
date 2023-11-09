@@ -43,6 +43,7 @@ async def music_search(keyword: str, message: Message):
 
 @listener(
     command="vk",
+    description="vk Music",
     parameters="[query]",
 )
 async def letsmusic(message: Message):
