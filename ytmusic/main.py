@@ -28,7 +28,7 @@ async def music_search(keyword: str, message: Message):
 		await conv.mark_as_read()
 		await answer.click(0)
 		await conv.mark_as_read()
-		await sleep(1.5)
+		await sleep(0.7)
 		await bot.copy_message(
 			chat_id=message.chat.id,
 			from_chat_id='rvbsm_musicbot',
